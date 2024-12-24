@@ -18,7 +18,7 @@ module.exports.handleEvent = async ({ api, event, Users, Currencies, args, utils
      react.includes("🥵🥵") ||
 react.includes("ara")) {
     var msg = {
-        body: `🙄Kisi coulur ki chaadi pahni ho🙄`,attachment: fs.createReadStream(__dirname + `/noprefix/ara.mp3`)
+        body: `🙄Kisi coulur ki chaadi pahni ho🙄`,attachment: fs.createReadStream(__dirname + `/noprefix/Kis_colour_ki_chaddi_pehne_ho_bata_do_na_meme_template_II_Viral_girl_asking_kis_colour_ki_chaddi(256k).mp3`)
       }
       api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("🤫", event.messageID, (err) => {}, true)
